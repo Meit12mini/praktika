@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <link rel="stylesheet" href="./stile.css" />
+    <link rel="stylesheet" href="./tarifii-stile.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тарифы</title>
+  </head>
+  <body>
+    <div class="burger-navigation">
+      <ul class="burger-navigation__links">
+        <li><a class="burger-navigation__links__text" href="#">О НАС</a></li>
+        <li>
+          <a class="burger-navigation__links__text" href="#">УСЛУГИ</a>
+        </li>
+        <li>
+          <a class="burger-navigation__links__text" href="#">ПОДДЕРЖКА</a>
+        </li>
+        <li>
+          <a class="burger-navigation__links__text" href="#">КОРЗИНА</a>
+        </li>
+      </ul>
+    </div>
+    <header class="header">
+      <nav class="header__navigation">
+        <div class="header__navigation__logo">
+          <img class="header__navigation__logo__mitto" src="/logo/Vector.svg" />
+        </div>
+        <div class="header__navigation__possibilities">
+          <a class="header__navigation__links__text mobi" href="#">ВОЙТИ</a>
+          <div class="header__navigation__possibilities__burger"></div>
+        </div>
+        <ul class="header__navigation__links">
+          <li><a class="header__navigation__links__text" href="#">О НАС</a></li>
+          <li>
+            <a class="header__navigation__links__text" href="#">УСЛУГИ</a>
+          </li>
+          <li>
+            <a class="header__navigation__links__text" href="#">ПОДДЕРЖКА</a>
+          </li>
+          <li>
+            <a class="header__navigation__links__text" href="#">КОРЗИНА</a>
+          </li>
+          <li><a class="header__navigation__links__text" href="#">ВОЙТИ</a></li>
+        </ul>
+      </nav>
+      <div class="burger">
+        <span> </span>
+      </div>
+    </header>
+    <main>
+      <h1 class="title-tariffi">Тарифы</h1>
+      <nav class="filt">
+        <ul class="filter-box">
+          <li
+            onclick="changeColor(this)"
+            data-f="all"
+            class="filter-box__border selected"
+          >
+            ВСЕ
+          </li>
+          <li
+            onclick="changeColor(this)"
+            data-f="smartphone"
+            class="filter-box__border"
+          >
+            Смартфонам
+          </li>
+          <li
+            onclick="changeColor(this)"
+            data-f="router"
+            class="filter-box__border"
+          >
+            роултерам
+          </li>
+          <li
+            onclick="changeColor(this)"
+            data-f="tv"
+            class="filter-box__border"
+          >
+            телевизорам
+          </li>
+        </ul>
+      </nav>
+      <article>
+        <div class="tariffi-list">
+          <div class="tariff__box__cart smartphone">
+            <!-- карта тарифа -->
+            <div class="tariff__box__cart__photo">
+              <img
+                class="tariff__box__cart__photo__img-tariff"
+                src="tarifii/1.svg"
+              />
+            </div>
+            <div class="tariff__box__cart__info">
+              <div class="tariff__box__cart__info_text">
+                <span class="tariff__box__cart__info__text__name"
+                  >НОВОГОДНИЙ</span
+                >
+                <span class="tariff__box__cart__info__text__gb">10 гб</span>
+                <span class="tariff__box__cart__info__text__min">200 мин</span>
+                <span class="tariff__box__cart__info__text__sms">100 СМС</span>
+                <span class="tariff__box__cart__info__text__buy"
+                  >599 руб/мес</span
+                >
+              </div>
+              <div class="tariff__box__cart__info__right">
+                <div class="tariff__box__cart__info__right__nolimit">
+                  <img
+                    class="tariff__box__cart__info__right__nolimit__ball"
+                    src="nolimit/Vector.svg"
+                  />
+                  <img
+                    class="tariff__box__cart__info__right__nolimit__ball"
+                    src="nolimit/2Vector.svg"
+                  />
+                  <img
+                    class="tariff__box__cart__info__right__nolimit__ball"
+                    src="nolimit/3Vector.svg"
+                  />
+                  <img
+                    class="tariff__box__cart__info__right__nolimit__ball"
+                    src="nolimit/4Vector.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tariff__box__cart smartphone">
+            <!-- карта тарифа -->
+            <div class="tariff__box__cart__photo">
+              <img
+                class="tariff__box__cart__photo__img-tariff"
+                src="tarifii/1.svg"
+              />
+            </div>
+            <div class="tariff__box__cart__info">
+              <div class="tariff__box__cart__info_text">
+                <span class="tariff__box__cart__info__text__name"
+                  >НОВОГОДНИЙ</span
+                >
+                <span class="tariff__box__cart__info__text__gb">10 гб</span>
+                <span class="tariff__box__cart__info__text__min">200 мин</span>
+                <span class="tariff__box__cart__info__text__sms">100 СМС</span>
+                <span class="tariff__box__cart__info__text__buy"
+                  >599 руб/мес</span
+                >
+              </div>
+              <div class="tariff__box__cart__info__right">
+                <div class="tariff__box__cart__info__right__nolimit">
+                  <img
+                    class="tariff__box__cart__info__right__nolimit__ball"
+                    src="nolimit/Vector.svg"
+                  />
+                  <img
+                    class="tariff__box__cart__info__right__nolimit__ball"
+                    src="nolimit/2Vector.svg"
+                  />
+                  <img
+                    class="tariff__box__cart__info__right__nolimit__ball"
+                    src="nolimit/3Vector.svg"
+                  />
+                  <img
+                    class="tariff__box__cart__info__right__nolimit__ball"
+                    src="nolimit/4Vector.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tariff__box__cart smartphone">
+            <!-- карта тарифа -->
+            <div class="tariff__box__cart__photo">
+              <img
+                class="tariff__box__cart__photo__img-tariff"
+                src="tarifii/1.svg"
+              />
+            </div>
+            <div class="tariff__box__cart__info">
+              <div class="tariff__box__cart__info_text">
+                <span class="tariff__box__cart__info__text__name"
+                  >НОВОГОДНИЙ</span
+                >
+                <span class="tariff__box__cart__info__text__gb">10 гб</span>
+                <span class="tariff__box__cart__info__text__min">200 мин</span>
+                <span class="tariff__box__cart__info__text__sms">100 СМС</span>
+                <span class="tariff__box__cart__info__text__buy"
+                  >599 руб/мес</span
+                >
+              </div>
+              <div class="tariff__box__cart__info__right">
+                <div class="tariff__box__cart__info__right__nolimit">
+                  <img
+                    class="tariff__box__cart__info__right__nolimit__ball"
+                    src="nolimit/Vector.svg"
+                  />
+                  <img
+                    class="tariff__box__cart__info__right__nolimit__ball"
+                    src="nolimit/2Vector.svg"
+                  />
+                  <img
+                    class="tariff__box__cart__info__right__nolimit__ball"
+                    src="nolimit/3Vector.svg"
+                  />
+                  <img
+                    class="tariff__box__cart__info__right__nolimit__ball"
+                    src="nolimit/4Vector.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tariff__box__cart router">
+            <!-- карта тарифа -->
+            <div class="tariff__box__cart__photo">
+              <img
+                class="tariff__box__cart__photo__img-tariff"
+                src="tarifii/1.svg"
+              />
+            </div>
+            <div class="tariff__box__cart__info">
+              <div class="tariff__box__cart__info_text">
+                <span class="tariff__box__cart__info__text__name"
+                  >НОВОГОДНИЙ</span
+                >
+                <span class="tariff__box__cart__info__text__gb">10 гб</span>
+                <span class="tariff__box__cart__info__text__min">200 мин</span>
+                <span class="tariff__box__cart__info__text__sms">100 СМС</span>
+                <span class="tariff__box__cart__info__text__buy"
+                  >599 руб/мес</span
+                >
+              </div>
+              <div class="tariff__box__cart__info__right">
+                <div class="tariff__box__cart__info__right__nolimit">
+                  <img
+                    class="tariff__box__cart__info__right__nolimit__ball"
+                    src="nolimit/Vector.svg"
+                  />
+                  <img
+                    class="tariff__box__cart__info__right__nolimit__ball"
+                    src="nolimit/2Vector.svg"
+                  />
+                  <img
+                    class="tariff__box__cart__info__right__nolimit__ball"
+                    src="nolimit/3Vector.svg"
+                  />
+                  <img
+                    class="tariff__box__cart__info__right__nolimit__ball"
+                    src="nolimit/4Vector.svg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer>
+      <div class="footer-box">
+        <div class="footer-box__app">
+          <!-- <p>НАШЕ ПРИЛОЖЕНИЕ</p> -->
+          <div class="footer-box__app__download">
+            <div class="footer-box__app__download__qr">
+              <img
+                class="footer-box__app__download__qr__img"
+                src="download/qr.svg"
+              />
+            </div>
+            <div class="footer-box__app__download__link">
+              <div class="footer-box__app__download__link__box app-store">
+                <img
+                  class="footer-box__app__download__link__boxy__img app-store__img"
+                  src="download/1.svg"
+                />
+              </div>
+              <div class="footer-box__app__download__link__box google-play">
+                <img
+                  class="footer-box__app__download__link__boxy__img google-play__img"
+                  src="download/2.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-box__link">
+          <div class="footer-box__link__connection">
+            <ul class="footer-box__link__connection-box">
+              <li class="footer-box__link__connection-box__text">Связь</li>
+              <li class="footer-box__link__connection-box__text">
+                Частые вопросы
+              </li>
+              <li class="footer-box__link__connection-box__text">
+                Карта покрытия
+              </li>
+              <li class="footer-box__link__connection-box__text">
+                Салоны связи
+              </li>
+              <li class="footer-box__link__connection-box__text">Контакты</li>
+            </ul>
+            <div class="footer-box__link__connection__arrow"></div>
+          </div>
+          <div class="footer-box__link__support">
+            <ul class="footer-box__link__support-box">
+              <li class="footer-box__link__support-box__text">Поддержка</li>
+              <li class="footer-box__link__support-box__text">
+                Звонки и сообщения
+              </li>
+              <li class="footer-box__link__support-box__text">
+                Пополнить баланс
+              </li>
+              <li class="footer-box__link__support-box__text">Безопасность</li>
+              <li class="footer-box__link__support-box__text">Интернет</li>
+            </ul>
+            <div class="footer-box__link__support__arrow"></div>
+          </div>
+          <div class="footer-box__link__services">
+            <ul class="footer-box__link__services-box">
+              <li class="footer-box__link__services-box__text">
+                Услуги и сервисы
+              </li>
+              <li class="footer-box__link__services-box__text">
+                Тарифы для смартфонов
+              </li>
+              <li class="footer-box__link__services-box__text">
+                Личный кабинет
+              </li>
+              <li class="footer-box__link__services-box__text">
+                Перейти на Mitto
+              </li>
+              <li class="footer-box__link__services-box__text">Роуминг</li>
+            </ul>
+            <div class="footer-box__link__services__arrow"></div>
+          </div>
+        </div>
+        <div class="footer-box__link__full">
+          <div class="footer-box__link__full__connection">
+            <ul>
+              <li class="footer-box__link__full__connection__text">
+                Тарифы для смартфонов
+              </li>
+              <li class="footer-box__link__full__connection__text">
+                Личный кабинет
+              </li>
+              <li class="footer-box__link__full__connection__text">
+                Перейти на Mitto
+              </li>
+              <li class="footer-box__link__full__connection__text">Роуминг</li>
+            </ul>
+          </div>
+          <div class="footer-box__link__full__support">
+            <ul>
+              <li class="footer-box__link__full__support__text">
+                Частые вопросы
+              </li>
+              <li class="footer-box__link__full__support__text">
+                Карта покрытия
+              </li>
+              <li class="footer-box__link__full__support__text">
+                Салоны связи
+              </li>
+              <li class="footer-box__link__full__support__text">Контакты</li>
+            </ul>
+          </div>
+          <div class="footer-box__link__full__services">
+            <ul>
+              <li class="footer-box__link__full__services__text">
+                Звонки и сообщения
+              </li>
+              <li class="footer-box__link__full__services__text">
+                Пополнить баланс
+              </li>
+              <li class="footer-box__link__full__services__text">
+                Безопасность
+              </li>
+              <li class="footer-box__link__full__services__text">Интернет</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="tarifii.js"></script>
+  </body>
+</html>

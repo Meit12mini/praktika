@@ -1,0 +1,361 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("./font/Montserrat-Regular.ttf") format(ttf);
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.arrow-unlock {
+  margin-top: 2px;
+  transform: rotate(-135deg) !important;
+}
+.home-tariff {
+  height: 90lvh;
+  width: 100%;
+  background: linear-gradient(90deg, #00bfff 13.97%, #ebf3fa 150%);
+}
+.home-tariff-box {
+  margin: 0px 5%;
+  height: 90lvh;
+}
+.home-tariff-box__center__title {
+  color: #f0eeee;
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  margin: 0px 0px 50px 0px;
+}
+.home-tariff-box__center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 25% 0px;
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.home-tariff-box__info {
+  color: #f0eeee;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 5%;
+}
+.home-tariff-box__center__img {
+  width: 60%;
+  height: 60%;
+}
+.advantages {
+  margin-top: 100px;
+}
+.advantages__title {
+  color: #0440b3;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.advantages-box {
+  width: 100%;
+  background: #00bfff;
+  height: 120px;
+}
+
+.connect {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.connect__title {
+  color: #000;
+
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.connect__button {
+  border-radius: 90px;
+  background: #01bfff;
+  width: 225px;
+  height: 65px;
+  flex-shrink: 0;
+  color: #fff;
+
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.questions {
+  margin: 0px 5%;
+}
+.advantages-box__list {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  width: 100%;
+  height: 100%;
+  scrollbar-width: none;
+  margin-bottom: 0px;
+}
+.advantages-box__list__bonus {
+  list-style-type: none;
+  height: 100%;
+  width: 100%;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.advantages-box__list__bonus__plus {
+  color: #f0eeee;
+
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+}
+.advantages-box__list__bonus__plus_additionally {
+  color: #f0eeee;
+
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.advantages__icons-nolimit {
+  margin-top: 25px;
+  margin: 25px 0px 0px 5%;
+}
+.advantages__icons-nolimit__img {
+  height: 32px;
+}
+.questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.questions__questions-box__question-answer {
+  width: 100%;
+}
+.questions__questions-box__question-answer__question {
+  border-radius: 34px;
+  background: rgba(0, 191, 255, 0.6);
+  width: 100%;
+  height: 50px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.questions__questions-box__question-answer__question__the-question {
+  color: #f0eeee;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+.questions__questions-box__question-answer__arrow {
+  display: inline-block;
+
+  border: 1px solid #f0eeee;
+  padding: 8px;
+  margin-top: -10px;
+  margin-left: 5px;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  justify-self: end;
+  margin-right: 25px;
+}
+.questions__questions-box__question-answer__response {
+  width: 100%;
+  height: 50px;
+  border-radius: 34px;
+  background: rgba(0, 191, 255, 0.6);
+  display: none;
+}
+.response-open {
+  display: flex;
+  border-radius: 0px 0px 34px 34px;
+}
+.questions__questions-box__question-answer__response__text {
+  color: #f0eeee;
+  margin: 10px 0px 0px 15px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-left: 20px;
+  width: auto;
+  height: auto;
+  text-align: left;
+}
+.question-open {
+  border-radius: 34px 34px 0px 0px;
+}
+
+@media (min-width: 768px) {
+  .home-tariff-box__center {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+  }
+  .home-tariff-box__title {
+    font-size: 50px;
+  }
+  .home-tariff-box__info {
+    font-size: 30px;
+    bottom: 10%;
+  }
+  .advantages-box {
+    height: 240px;
+  }
+  .advantages-box__list__bonus__plus {
+    font-size: 70px;
+  }
+  .advantages-box__list__bonus__plus_additionally {
+    font-size: 40px;
+  }
+  .home-tariff-box__center__img {
+    width: 40%;
+    height: 40%;
+  }
+  .home-tariff-box__center__title {
+    font-size: 50px;
+  }
+  .connect__title {
+    font-size: 45px;
+  }
+  .connect__button {
+    width: 450px;
+    height: 125px;
+    color: #fff;
+
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .questions__questions-box__questions-box {
+    width: 90%;
+  }
+  .questions__questions-box__question-answer__question {
+    height: 60px;
+  }
+  .questions__questions-box__question-answer__question__the-question {
+    font-size: 16px;
+  }
+  .questions__questions-box__question-answer__response__text {
+    font-size: 14px;
+  }
+  .advantages__icons-nolimit__img {
+    height: 50px;
+  }
+  .connect {
+    margin-top: 200px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .connect {
+    margin-top: 300px;
+  }
+  .questions {
+    display: flex;
+    align-items: flex-start;
+  }
+  .questions__questions-box__questions-box {
+    width: 100%;
+  }
+  .questions__questions-box__question-answer__question {
+    height: 80px;
+    border-radius: 50px;
+  }
+  .question-open {
+    border-radius: 50px 50px 0px 0px;
+  }
+  .response-open {
+    height: 80px;
+    border-radius: 0px 0px 50px 50px;
+  }
+  .questions__questions-box__question-answer__question__the-question {
+    font-size: 24px;
+  }
+  .questions__questions-box__question-answer__response__text {
+    font-size: 20px;
+  }
+  .advantages__title {
+    margin-left: 5%;
+  }
+  .advantages-box__list {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: none;
+    width: 100%;
+    height: 100%;
+    scrollbar-width: none;
+    margin-bottom: 0px;
+    justify-content: space-around;
+  }
+  .advantages-box__list__bonus {
+    list-style-type: none;
+    height: 100%;
+    width: 400px;
+    flex-shrink: 0;
+    scroll-snap-align: none;
+    display: flex;
+    align-items: center;
+  }
+  .advantages__icons-nolimit__img {
+    height: 75px;
+  }
+  .home-tariff-box__center__title {
+    font-size: 80px;
+  }
+  .connect__title {
+    font-size: 60px;
+  }
+  .connect__button {
+    width: 700px;
+    height: 175px;
+    font-size: 60px;
+  }
+}
