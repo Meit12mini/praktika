@@ -51,6 +51,7 @@ header{
   justify-content: center;
 }
 .tariff__box__cart {
+  text-decoration: none;
   margin: 50px auto;
   /* cursor: pointer; */
 }
@@ -85,6 +86,7 @@ background-color: #DFF7FF ;
 }
 @media (min-width: 768px) {
   .tariff__box__cart {
+    text-decoration: none;
     width: 300px;
     margin: 50px 1vw;
   }

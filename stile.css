@@ -772,6 +772,7 @@ footer {
     margin: 21px;
   }
   .tariff__box__cart {
+    text-decoration: none;
     width: 325px;
     height: 550px;
     flex-shrink: 0;
