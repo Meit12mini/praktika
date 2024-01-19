@@ -5,6 +5,9 @@
   font-weight: 400;
   line-height: normal;
 }
+header{
+  border-bottom:1px solid #00bfff;;
+}
 .title-tariffi {
   margin: 75px 5% 0px 5%;
   color: #000;

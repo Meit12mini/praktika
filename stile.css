@@ -519,6 +519,13 @@ li {
   background: #00bfff;
   width: 150px;
   height: 40px;
+  color: #FFF;
+font-family: "Montserrat";
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
 }
 .hit__box__group__hit-smartphone__border__info__bottom__grade {
   display: flex;
@@ -629,7 +636,7 @@ footer {
 }
 .arrow-open {
   transform: rotate(-135deg) !important;
-  margin-top: 5px !important;
+  margin-top: 8px !important;
 }
 .footer-box__link__connection,
 .footer-box__link__support,
@@ -943,6 +950,7 @@ footer {
     align-items: center;
   }
   .hit__box__group__hit-smartphone__border__info__bottom__buy {
+    font-size: 25px;
     border-radius: 30px;
     background: #00bfff;
     width: 175px;
@@ -1066,6 +1074,7 @@ footer {
 
   .home__current__buttons {
     width: 500px;
+    margin-top: 10vh;
   }
   .home__current__buttons__first__tariff,
   .home__current__buttons__second__catalog {
@@ -1215,6 +1224,7 @@ footer {
     margin-top: 25px;
   }
   .hit__box__group__hit-smartphone__border__info__bottom__buy {
+    font-size: 30px;
     width: 200px;
     height: 60px;
   }
