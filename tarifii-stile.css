@@ -52,6 +52,7 @@ header{
 }
 .tariff__box__cart {
   margin: 50px auto;
+  /* cursor: pointer; */
 }
 .tariff__box__cart:hover {
 background-color: #DFF7FF ; 

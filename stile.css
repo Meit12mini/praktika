@@ -299,6 +299,8 @@ li {
   margin-bottom: 0px;
 }
 .tariff__box__cart {
+ text-decoration: none;
+  display: block;
   width: 190px;
   height: 325px;
   flex-shrink: 0;

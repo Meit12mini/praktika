@@ -6,7 +6,7 @@
   line-height: normal;
 }
 .arrow-unlock {
-  margin-top: 2px;
+  margin-top: 2px !important;
   transform: rotate(-135deg) !important;
 }
 .home-tariff {
@@ -47,6 +47,7 @@
   text-transform: uppercase;
   position: absolute;
   bottom: 5%;
+  line-height: 30px;
 }
 .home-tariff-box__center__img {
   width: 60%;
@@ -241,6 +242,7 @@
   .home-tariff-box__info {
     font-size: 30px;
     bottom: 10%;
+    line-height: 50px;
   }
   .advantages-box {
     height: 240px;
@@ -295,6 +297,9 @@
 }
 
 @media (min-width: 1920px) {
+  .home-tariff{
+    height: 95lvh;
+  } 
   .connect {
     margin-top: 300px;
   }
