@@ -53,6 +53,9 @@ header{
 .tariff__box__cart {
   margin: 50px auto;
 }
+.tariff__box__cart:hover {
+background-color: #DFF7FF ; 
+}
 .selected {
   border: 5px solid rgba(0, 124, 166, 0.25);
   background: #00bfff;
